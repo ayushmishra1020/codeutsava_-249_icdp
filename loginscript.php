@@ -27,7 +27,7 @@ if(!isset($_POST['submit'])){
      {	session_start();
      
        $_SESSION['username']=$row['username'];
-       header('location: dashboard.php');	
+       header('location: index.php');	
 
 
      }
